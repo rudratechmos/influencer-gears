@@ -159,3 +159,49 @@ html, body{
     font-weight: 700;
     margin-top: 10px;
 }
+
+.see-more{
+    width: calc(100% - 12%);
+    margin-top: 50px;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* featured styles */
+.featured-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin: 75px;
+}
+
+.featured-container img{
+    width: 100%;
+}
+
+.featured-container h3{
+    color: rgb(10, 8, 38);
+    font-size: 2.375rem;
+    font-weight: 700;    
+}
+
+.featured-container p{
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;   
+    margin: 16px 0px;
+}
+
+.featured-container button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(224, 44, 109);
+    border: none;
+    padding: 10px 24px;
+}
