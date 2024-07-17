@@ -93,8 +93,8 @@ html, body{
     justify-content: center;
     align-items: center;
     gap: 60px;
-    border-bottom: 1px solid rgba(192, 204, 218, 0.6);
     border-top: 1px solid rgba(192, 204, 218, 0.6);
+    border-bottom: 1px solid rgba(192, 204, 218, 0.6);
 }
 
 .row-1{
@@ -102,15 +102,14 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .row-2 {
     display: flex;
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 /* collection styles */
