@@ -29,7 +29,7 @@ html, body{
 }
 
 .nav-options{
-    max-width: 463px;
+    width: 463px;
     height: 36px;
     display: flex;
     justify-content: space-between;
@@ -87,12 +87,28 @@ html, body{
 }
 
 .brands{
-    max-width: 1110px;
     height: 110px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 60px;
     border-bottom: 1px solid rgba(192, 204, 218, 0.6);
     border-top: 1px solid rgba(192, 204, 218, 0.6);
+}
+
+.row-1{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.row-2{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }

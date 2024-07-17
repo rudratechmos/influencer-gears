@@ -35,8 +35,18 @@
     margin-top: 20px;
    }
    .brands{
+    display: flex;
+    flex-direction: column;
+   }
+   .row-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
+    gap: 0px;
+   }
+   .row-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
    }
 }
